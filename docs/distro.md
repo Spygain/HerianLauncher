@@ -17,23 +17,18 @@ The distribution index is written in JSON. The general format of the index is as
     "rss": "https://westeroscraft.com/articles/index.rss",
     "servers": [
         {
-            "id": "Example_Server",
-            "name": "WesterosCraft Example Client",
-            "description": "Example WesterosCraft server. Connect for fun!",
-            "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/example_icon.png",
-            "version": "0.0.1",
-            "address": "mc.westeroscraft.com:1337",
-            "minecraftVersion": "1.11.2",
+            "id": "Hérian",
+            "name": "Test (Minecraft 1.12.2)",
+            "description": "Test Running Minecraft 1.12.2 (Forge v14.23.5.2854)",
+            "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
+            "address": "localhost:25565",
             "discord": {
-                "shortId": "Example",
-                "largeImageText": "WesterosCraft Example Server",
-                "largeImageKey": "server-example"
+                "shortId": "1.12.2 Test Server",
+                "largeImageText": "1.12.2 Test Server",
+                "largeImageKey": "seal-circle"
             },
             "mainServer": true,
             "autoconnect": true,
-            "modules": [
-                "Module Objects Here"
-            ]
         }
     ]
 }
